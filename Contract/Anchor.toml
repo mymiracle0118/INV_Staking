@@ -1,0 +1,12 @@
+[programs.devnet]
+solana_anchor = "7hZHCToxNtH3vrx4Py7PZh7KUTaYJ6yDaUMq1AtL7EUi"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/venus/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
